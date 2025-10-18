@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'api' => [
+        'base_url' => env('API_BASE_URL'),
+        'public_key' => env('API_PUBLIC_KEY'),
+        'private_key' => env('API_PRIVATE_KEY'),
+    ],
+
 ];
